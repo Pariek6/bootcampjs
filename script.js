@@ -1,3 +1,5 @@
+// Opdracht 1 - 2 - 3 - 4 - 5
+
 var animals = "cat", dog = "dog", tiger = "tiger";
 
 var one       = 1;
