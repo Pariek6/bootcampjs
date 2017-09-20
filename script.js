@@ -1,5 +1,3 @@
-// Opdracht 1 - 2 - 3 - 4 - 5
-
 var animals = "cat", dog = "dog", tiger = "tiger";
 
 var one       = 1;
@@ -63,11 +61,20 @@ console.log(voorachter("Patrick", " Frumau"));
 
 // Opdracht 10
 console.log("--- Opdracht 10 ---")
-var a = function delen() {
+var delen = function(a, b) {
 
-  return console.log(8 / 2);
-}
-console.log(a);
+  return a / b;
+
+
+};
+var uitkomst = delen(30,5);
+console.log(uitkomst);
+
+var vermenigvuldigen = function(a,b) {
+  return a * b;
+};
+var uitkomst2 = vermenigvuldigen(10, 4);
+console.log(uitkomst2);
 
 // Opdracht 11
 console.log("--- Opdracht 11 ---")
